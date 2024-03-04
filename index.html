@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бродилка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/dice5.png">
+</head>
+
+<body>
+    <div class="panel">
+        <header>
+            <h1 id="headerText">Snakes & Ladders</h1>
+            <h3>Player: <span id="xod">Human</span></h3>
+            <p>Click dice to play!</p>
+            <img class="dice" src="img/dice1.png" alt="" onclick="randomcube()">
+        </header>
+        <div id="game">
+            <img src="snakes0.png" alt="">
+            <div class="bot"></div>
+            <div class="player"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
